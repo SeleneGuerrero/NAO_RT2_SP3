@@ -39,29 +39,26 @@ src/
 
 El proyecto utiliza las siguientes librerías:
 
-```xml
-#<dependency>
-#    <groupId>org.json</groupId>
-#    <artifactId>json</artifactId>
-#    <version>20250517</version>
-#</dependency>
+groupId → org.json
 
-#<dependency>
-#    <groupId>com.opencsv</groupId>
-#    <artifactId>opencsv</artifactId>
-#    <version>5.9</version>
-#</dependency>
+artifactId → json
 
+version → 20250517
 
 + Agrega estas dependencias en el archivo pom.xml si usas Maven.
 
 ---
+
 🧠 Descripción de las Clases
 
 Main.java -	Punto de entrada. Controla el flujo del programa: lectura de JSON y escritura de CSV.
+
 People.java -	Modelo de datos que representa a una persona con nombre, edad, país e ID.
+
 JsonReader.java -	Lee el archivo JSON y lo convierte en una lista de objetos People.
+
 CsvWriter.java -Escribe los datos en un archivo CSV usando OpenCSV. Recibe el delimitador desde la configuración.
+
 ConfigReader.java -	Lee el archivo config.properties para determinar qué delimitador se usará en el CSV.
 
 ---
@@ -69,6 +66,7 @@ ConfigReader.java -	Lee el archivo config.properties para determinar qué delimi
 📄 Archivos de Datos
 person.json
 Ejemplo de entrada JSON:
+
 [
   {"name": "Juan", "age": 30, "country": "Mexico", "id": 1},
   {"name": "Karla", "age": 26, "country": "Canada", "id": 2}
@@ -82,8 +80,11 @@ csv.delimiter=;
 
 Puedes usar otros delimitadores:
 , → coma
+
 ; → punto y coma
+
 | → barra vertical
+
 \t → tabulador
 
 ---
