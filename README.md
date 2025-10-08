@@ -11,7 +11,9 @@ Este proyecto en **Java** demuestra cómo:
 📂 Estructura del Proyecto
 
 src/
+
 └── main/
+
 ├── java/
 
 │ └── org/example/
@@ -48,7 +50,7 @@ El proyecto utiliza las siguientes librerías:
     <groupId>com.opencsv</groupId>
     <artifactId>opencsv</artifactId>
     <version>5.9</version>
-</dependency>
+</dependency>```
 
 
 + Agrega estas dependencias en el archivo pom.xml si usas Maven.
@@ -62,7 +64,7 @@ JsonReader.java -	Lee el archivo JSON y lo convierte en una lista de objetos Peo
 CsvWriter.java -Escribe los datos en un archivo CSV usando OpenCSV. Recibe el delimitador desde la configuración.
 ConfigReader.java -	Lee el archivo config.properties para determinar qué delimitador se usará en el CSV.
 
-##📄 Archivos de Datos
+📄 Archivos de Datos
 person.json
 Ejemplo de entrada JSON:
 [
