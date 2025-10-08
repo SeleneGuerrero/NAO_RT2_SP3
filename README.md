@@ -1,4 +1,4 @@
-# 🧾 Proyecto: Lectura de JSON y Escritura de CSV con Configuración de Delimitador
+🧾 Proyecto: Lectura de JSON y Escritura de CSV con Configuración de Delimitador
 
 Este proyecto en **Java** demuestra cómo:
 1. Leer datos desde un archivo **JSON**.
@@ -8,24 +8,32 @@ Este proyecto en **Java** demuestra cómo:
 
 ---
 
-## 📂 Estructura del Proyecto
+📂 Estructura del Proyecto
 
 src/
 └── main/
 ├── java/
+
 │ └── org/example/
+
 │ ├── Main.java
+
 │ ├── People.java
+
 │ ├── JsonReader.java
+
 │ ├── CsvWriter.java
+
 │ └── ConfigReader.java
+
 │ └── config.properties
+
 | └── person.json
 
 
 ---
 
-## ⚙️ Dependencias
+⚙️ Dependencias
 
 El proyecto utiliza las siguientes librerías:
 
@@ -45,7 +53,8 @@ El proyecto utiliza las siguientes librerías:
 
 + Agrega estas dependencias en el archivo pom.xml si usas Maven.
 
-##🧠 Descripción de las Clases
+
+🧠 Descripción de las Clases
 
 Main.java -	Punto de entrada. Controla el flujo del programa: lectura de JSON y escritura de CSV.
 People.java -	Modelo de datos que representa a una persona con nombre, edad, país e ID.
