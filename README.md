@@ -40,17 +40,17 @@ src/
 El proyecto utiliza las siguientes librerías:
 
 ```xml
-<dependency>
-    <groupId>org.json</groupId>
-    <artifactId>json</artifactId>
-    <version>20250517</version>
-</dependency>
+#<dependency>
+#    <groupId>org.json</groupId>
+#    <artifactId>json</artifactId>
+#    <version>20250517</version>
+#</dependency>
 
-<dependency>
-    <groupId>com.opencsv</groupId>
-    <artifactId>opencsv</artifactId>
-    <version>5.9</version>
-</dependency>```
+#<dependency>
+#    <groupId>com.opencsv</groupId>
+#    <artifactId>opencsv</artifactId>
+#    <version>5.9</version>
+#</dependency>
 
 
 + Agrega estas dependencias en el archivo pom.xml si usas Maven.
