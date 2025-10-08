@@ -45,7 +45,7 @@ El proyecto utiliza las siguientes librerías:
 
 + Agrega estas dependencias en el archivo pom.xml si usas Maven.
 
-🧠 Descripción de las Clases
+##🧠 Descripción de las Clases
 
 Main.java -	Punto de entrada. Controla el flujo del programa: lectura de JSON y escritura de CSV.
 People.java -	Modelo de datos que representa a una persona con nombre, edad, país e ID.
@@ -53,7 +53,7 @@ JsonReader.java -	Lee el archivo JSON y lo convierte en una lista de objetos Peo
 CsvWriter.java -Escribe los datos en un archivo CSV usando OpenCSV. Recibe el delimitador desde la configuración.
 ConfigReader.java -	Lee el archivo config.properties para determinar qué delimitador se usará en el CSV.
 
-📄 Archivos de Datos
+##📄 Archivos de Datos
 person.json
 Ejemplo de entrada JSON:
 [
@@ -74,7 +74,7 @@ Puedes usar otros delimitadores:
 \t → tabulador
 
 
-🚀 Ejecución del Proyecto
+##🚀 Ejecución del Proyecto
 
 1. Clona o descarga el repositorio.
 2. Asegúrate de tener configuradas las dependencias en tu pom.xml.
